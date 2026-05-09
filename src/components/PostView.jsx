@@ -10,8 +10,6 @@ export default function PostView({ post, onBack }) {
       <div className="post-view-inner">
         <button className="back-btn" onClick={onBack}>← Back to posts</button>
         <div className="post-view-meta">
-          <span className="category-tag">{post.category}</span>
-          <span className="dot">·</span>
           <span className="read-time">{post.readTime}</span>
           <span className="dot">·</span>
           <span className="date">{post.date}</span>

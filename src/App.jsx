@@ -5,13 +5,9 @@ import PostView from './components/PostView'
 import { posts } from './data'
 import './App.css'
 
-const CATEGORIES = ['All', ...new Set(posts.map(p => p.category))]
-
 export default function App() {
   const [currentPost, setCurrentPost] = useState(null)
-  const [activeCategory, setActiveCategory] = useState('All')
-  const filtered = activeCategory === 'All' ? posts : posts.filter(p => p.category === activeCategory)
-  const [featured, ...rest] = filtered
+  const [featured, ...rest] = posts
 
   if (currentPost) return (
     <div className="app">
@@ -26,18 +22,12 @@ export default function App() {
       <main className="home">
         <div className="container">
           <div className="hero">
-            <h1 className="hero-title">The Daily Read</h1>
+            <h1 className="hero-title">harmanc</h1>
             <p className="hero-subtitle">Thoughts on design, development, and living deliberately.</p>
           </div>
-          <nav className="category-nav">
-            {CATEGORIES.map(cat => (
-              <button key={cat} className={`cat-btn${activeCategory === cat ? ' active' : ''}`} onClick={() => setActiveCategory(cat)}>{cat}</button>
-            ))}
-          </nav>
           {featured && (
             <article className="featured" onClick={() => setCurrentPost(featured)}>
               <div className="featured-badge">
-                <span className="category-tag">{featured.category}</span>
                 <span className="read-time">{featured.readTime}</span>
               </div>
               <h2 className="featured-title">{featured.title}</h2>
@@ -55,7 +45,7 @@ export default function App() {
           )}
         </div>
       </main>
-      <footer className="footer"><div className="container"><span>© 2026 The Daily Read</span></div></footer>
+      <footer className="footer"><div className="container"><span>© 2026 harmanc</span></div></footer>
     </div>
   )
 }
