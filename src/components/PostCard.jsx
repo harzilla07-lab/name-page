@@ -2,8 +2,6 @@ export default function PostCard({ post, onClick }) {
   return (
     <article className="post-card" onClick={onClick}>
       <div className="post-card-meta">
-        <span className="category-tag">{post.category}</span>
-        <span className="dot">·</span>
         <span className="read-time">{post.readTime}</span>
       </div>
       <h3 className="post-card-title">{post.title}</h3>

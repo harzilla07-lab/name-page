@@ -39,43 +39,4 @@ export const posts = [
       { type: 'p', text: "The engineers I most respect have a long history of side projects—a graveyard of half-finished experiments and lessons learned. That graveyard is the credential." },
     ],
   },
-  {
-    id: 4, title: 'Learning in Public: One Year Later',
-    excerpt: "A year ago I started sharing my work online before I felt ready. Here's what actually happened.",
-    category: 'Career', date: 'April 3, 2026', readTime: '7 min read', featured: false,
-    content: [
-      { type: 'p', text: "A year ago I started sharing what I was working on before I felt ready. The fear was that I'd look incompetent. The reality was almost the opposite." },
-      { type: 'h2', text: 'What Actually Happened' },
-      { type: 'p', text: "The posts I was most uncertain about often got the best responses—because readers aren't looking for finished knowledge, they're looking for honest thinking." },
-      { type: 'blockquote', text: "Learning in public isn't about broadcasting your ignorance. It's about making your curiosity visible." },
-      { type: 'h2', text: 'The Compound Interest' },
-      { type: 'p', text: "Something you write once can help someone for years. That asymmetry—small effort, long tail of value—is hard to find in most activities." },
-    ],
-  },
-  {
-    id: 5, title: 'Getting Better at Deep Work',
-    excerpt: "Cal Newport's ideas changed how I think about focus. Here's how I actually put them into practice.",
-    category: 'Productivity', date: 'March 20, 2026', readTime: '5 min read', featured: false,
-    content: [
-      { type: 'p', text: "Deep work isn't the default. It requires deliberate construction. Most knowledge workers switch contexts every eight minutes." },
-      { type: 'h2', text: 'Scheduling It Like a Meeting' },
-      { type: 'p', text: "Treat deep work blocks like appointments. Not I'll find time but Tuesday 9 to 11am: deep work. The block is non-negotiable." },
-      { type: 'blockquote', text: "Clarity about what you're protecting is a prerequisite for protecting it." },
-      { type: 'h2', text: 'The Shutdown Ritual' },
-      { type: 'p', text: "A deliberate end-of-workday process closes all open loops and lets you actually disengage. Without it, work bleeds into evenings." },
-    ],
-  },
-  {
-    id: 6, title: 'The Tech I Actually Use in 2026',
-    excerpt: "A practical rundown of the tools that have earned a permanent spot in my workflow.",
-    category: 'Tech', date: 'March 8, 2026', readTime: '4 min read', featured: false,
-    content: [
-      { type: 'p', text: "Every year I audit what's actually in my workflow. The delta is usually enlightening. Here's what made the cut in 2026." },
-      { type: 'h2', text: 'Daily Drivers' },
-      { type: 'p', text: "For writing, it's still plain text and Markdown. The portability is unbeatable and the friction is basically zero." },
-      { type: 'h2', text: 'What I Dropped' },
-      { type: 'p', text: "Three task management apps I no longer use. I spent more time organizing tasks than doing them. A plain text file with today's three priorities won." },
-      { type: 'blockquote', text: "The best tool is usually the one with the smallest gap between intention and action." },
-    ],
-  },
 ]
