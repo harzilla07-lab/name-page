@@ -2,23 +2,35 @@ import { useState } from 'react'
 import Header from './components/Header'
 import PostCard from './components/PostCard'
 import PostView from './components/PostView'
+import About from './components/About'
 import { posts } from './data'
 import './App.css'
 
 export default function App() {
   const [currentPost, setCurrentPost] = useState(null)
+  const [showAbout, setShowAbout] = useState(false)
   const [featured, ...rest] = posts
+
+  const goHome = () => { setCurrentPost(null); setShowAbout(false) }
+
+  if (showAbout) return (
+    <div className="app">
+      <Header onLogoClick={goHome} onAboutClick={() => setShowAbout(true)} />
+      <About />
+      <footer className="footer"><div className="container"><span>© 2026 harmanc</span></div></footer>
+    </div>
+  )
 
   if (currentPost) return (
     <div className="app">
-      <Header onLogoClick={() => setCurrentPost(null)} />
-      <PostView post={currentPost} onBack={() => setCurrentPost(null)} />
+      <Header onLogoClick={goHome} onAboutClick={() => setShowAbout(true)} />
+      <PostView post={currentPost} onBack={goHome} />
     </div>
   )
 
   return (
     <div className="app">
-      <Header onLogoClick={() => setCurrentPost(null)} />
+      <Header onLogoClick={goHome} onAboutClick={() => setShowAbout(true)} />
       <main className="home">
         <div className="container">
           <div className="hero">
