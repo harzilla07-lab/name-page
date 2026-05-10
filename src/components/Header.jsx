@@ -4,7 +4,7 @@ export default function Header({ onLogoClick }) {
       <div className="header-inner">
         <button className="logo" onClick={onLogoClick}>
           <span className="logo-mark">●</span>
-          <span>The Daily Read</span>
+          <span>harmanc</span>
         </button>
         <nav className="header-nav">
           <button className="nav-link" onClick={onLogoClick}>Posts</button>
