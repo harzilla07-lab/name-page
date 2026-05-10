@@ -3,7 +3,6 @@ export default function About() {
     <main className="about-view">
       <div className="about-inner">
         <div className="about-header">
-          <div className="about-avatar">H</div>
           <div>
             <h1 className="about-name">Harman</h1>
             <p className="about-role">Accountant & Capital Markets Analyst</p>
