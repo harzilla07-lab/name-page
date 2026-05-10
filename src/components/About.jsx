@@ -6,7 +6,7 @@ export default function About() {
           <div className="about-avatar">H</div>
           <div>
             <h1 className="about-name">Harman</h1>
-            <p className="about-role">Writer & Developer</p>
+            <p className="about-role">Accountant & Capital Markets Analyst</p>
           </div>
         </div>
 
