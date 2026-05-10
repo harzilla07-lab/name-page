@@ -31,7 +31,7 @@ export default function About() {
         <section className="about-section">
           <h2 className="about-section-title">Get in touch</h2>
           <p className="about-bio">Have a question or just want to say hello? Feel free to reach out.</p>
-          <a className="about-contact-btn" href="mailto:hello@example.com">hello@example.com</a>
+          <a className="about-contact-btn" href="mailto:info@harmanc.com">info@harmanc.com</a>
         </section>
       </div>
     </main>
