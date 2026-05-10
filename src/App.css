@@ -49,5 +49,18 @@
 .footer { border-top: 1px solid var(--border); padding: 28px 0; }
 .footer .container { display: flex; justify-content: center; }
 .footer span { font-size: 0.85rem; color: var(--text-muted); }
+.about-view { flex: 1; padding: 64px 0 96px; }
+.about-inner { max-width: 680px; margin: 0 auto; padding: 0 24px; }
+.about-header { display: flex; align-items: center; gap: 24px; margin-bottom: 48px; }
+.about-avatar { width: 72px; height: 72px; border-radius: 50%; background: var(--accent); color: #fff; font-size: 1.8rem; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.about-name { font-family: Georgia, serif; font-size: 2rem; font-weight: 700; line-height: 1.2; }
+.about-role { font-size: 1rem; color: var(--text-muted); margin-top: 4px; }
+.about-section { margin-bottom: 44px; }
+.about-section-title { font-family: Georgia, serif; font-size: 1.25rem; font-weight: 700; margin-bottom: 16px; }
+.about-bio { font-size: 1.05rem; line-height: 1.85; color: #1f2937; }
+.about-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px; }
+.about-tag { font-size: 0.85rem; font-weight: 500; padding: 6px 16px; border-radius: 100px; background: var(--accent-light); color: var(--accent); }
+.about-contact-btn { display: inline-block; margin-top: 16px; padding: 10px 24px; background: var(--accent); color: #fff; border-radius: 10px; font-size: 0.95rem; font-weight: 600; text-decoration: none; transition: opacity 0.15s; }
+.about-contact-btn:hover { opacity: 0.85; }
 @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 580px) { .grid { grid-template-columns: 1fr; } .featured { padding: 28px 24px; } .header-inner, .container { padding-left: 16px; padding-right: 16px; } }

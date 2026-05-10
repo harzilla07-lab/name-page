@@ -1,4 +1,4 @@
-export default function Header({ onLogoClick }) {
+export default function Header({ onLogoClick, onAboutClick }) {
   return (
     <header className="header">
       <div className="header-inner">
@@ -8,7 +8,7 @@ export default function Header({ onLogoClick }) {
         </button>
         <nav className="header-nav">
           <button className="nav-link" onClick={onLogoClick}>Posts</button>
-          <a className="nav-link" href="https://github.com/harzilla07-lab" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <button className="nav-link" onClick={onAboutClick}>About</button>
         </nav>
       </div>
     </header>
