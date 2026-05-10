@@ -22,7 +22,6 @@ export default function App() {
       <main className="home">
         <div className="container">
           <div className="hero">
-            <h1 className="hero-title">harmanc</h1>
             <p className="hero-subtitle">Thoughts on design, development, and living deliberately.</p>
           </div>
           {featured && (
