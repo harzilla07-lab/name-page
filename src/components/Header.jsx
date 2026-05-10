@@ -8,7 +8,7 @@ export default function Header({ onLogoClick, onAboutClick }) {
         </button>
         <nav className="header-nav">
           <button className="nav-link" onClick={onLogoClick}>Posts</button>
-          <button className="nav-link" onClick={onAboutClick}>About</button>
+          <button className="nav-link" onClick={onAboutClick}>About Me</button>
         </nav>
       </div>
     </header>
