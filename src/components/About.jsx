@@ -11,8 +11,7 @@ export default function About() {
 
         <section className="about-section">
           <p className="about-bio">
-            Hey, I'm Harman. I write about productivity, design, and the craft of building things.
-            This is my corner of the internet — a place to think out loud and share what I'm learning.
+            I'm a senior accountant focused on maintaining accurate financial records and producing clear, reliable financial statements. My work includes reconciliations, data entry, and supporting tax preparation, with close attention to detail and reporting standards. I approach accounting with a focus on organization and consistency—reviewing data carefully, resolving discrepancies, and improving how information is managed over time. I make practical use of accounting systems and tools to keep workflows efficient, while ensuring the integrity of the numbers remains the priority.
           </p>
         </section>
 
